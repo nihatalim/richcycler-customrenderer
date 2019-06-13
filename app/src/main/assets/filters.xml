@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filters>
+    <filter name="job" display="Job" type="checkbox"
+        renderer="tr.com.nihatalim.richcycler.filters.CheckBoxFilter">
+
+        <item value="engineer" display="Engineer"/>
+        <item value="lawyer" display="Lawyer"/>
+        <item value="teacher" display="Teacher"/>
+        <item value="student" display="Student"/>
+        <item value="worker" display="Worker"/>
+    </filter>
+
+    <filter name="apply" display="Apply" type="switch"
+        renderer="tr.com.nihatalim.richcyclercustomrenderer.customfilters.CustomSwitchRenderer">
+    </filter>
+</filters>
